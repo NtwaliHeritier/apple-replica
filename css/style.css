@@ -5,22 +5,26 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/*This is the header styles*/
+/* General class */
+.flex {
+  display: flex;
+}
+
+/* This is the header styles */
 header {
   background-image: url(../assets/images/expedition_hero.jpg);
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   height: 80vh;
   padding-top: 50px;
 }
 
-/*This is the nav styles*/
+/* This is the nav styles */
 nav {
   margin: 5% auto 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
@@ -34,6 +38,15 @@ nav a {
   color: white;
   border-right: 1px solid black;
   justify-self: center;
+}
+
+main a {
+  width: 24.8%;
+}
+
+.right a {
+  padding: 0 3px;
+  border-right: thin solid lightgray;
 }
 
 nav a:hover {
@@ -63,63 +76,52 @@ nav button {
 button i {
   color: white;
 }
-.header-img{
-    width: 60vw;
-    height: 20vh;
-    
+
+.header-img {
+  width: 60vw;
+  height: 20vh;
 }
 
-.header-div{
-    width: 70%;
-    margin: 2% auto;
+.header-div {
+  width: 70%;
+  margin: 2% auto;
 }
 
-
-/*This is the main section styles*/
-main{
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* This is the main section styles */
+main {
+  margin: 5px auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main img {
-    height: 100%;
-    width: 100%;
-}
-
-main a {
-    width: 24.8%;   
+  height: 100%;
+  width: 100%;
 }
 
 /* This is the footer styles */
-.top-footer{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 20px auto;
-    align-items: center;
-   
-}
-.right a{
-    padding: 0 3px;
-    border-right: thin solid lightgray;
+.top-footer {
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  align-items: center;
 }
 
 .bottom-footer {
-    width: 90%;
-    margin: 10px auto 20px;
+  width: 90%;
+  margin: 10px auto 20px;
 }
 
-footer p {
-    font-size: 13px;
+footer p,
+footer a {
+  font-size: 13px;
 }
 
 .bottom-a {
-    border-right: thin solid lightgray;
-    padding-right: 3px;
+  border-right: thin solid lightgray;
+  padding-right: 3px;
 }
 
 #right-last {
-    border: none;
+  border: none;
 }
