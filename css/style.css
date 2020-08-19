@@ -1,63 +1,104 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    z-index: 1;
-    margin: 5%;
+  background-image: url(../assets/images/expedition_hero.jpg);
+  background-repeat: no-repeat;
+  background-size:  cover;
+  height: 80vh;
+  /* position: absolute;
+  top:0; */
+
+  /* margin: 5%; */
 }
 
 nav {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to bottom, #7C7C7C, #606060, #7C7C7C);
-    width: 75%;
-    border: 1px solid black;
-    border-radius: 7px;
+  margin: 5% auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 nav a {
-    text-decoration: none;
-    padding: 10px 40px;
-    color: white;
-    border-right: 1px solid black;
-    justify-self: center;
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  border-right: 1px solid black;
+  justify-self: center;
 }
 
 nav a:hover {
-    background-image: linear-gradient(to bottom,#5E5E5E, #393939 55%, #5E5E5E);
+  background-image: linear-gradient(to bottom, #5e5e5e, #393939 55%, #5e5e5e);
 }
 
 form {
-    position: relative;
-    width: 99%;
-    margin-left: 0.5%;
+  position: relative;
+  width: 99%;
+  margin-left: 0.5%;
 }
 
 nav input {
-    border-radius: 20px;
-    background-image: linear-gradient(to bottom, #7C7C7C, #606060, #7C7C7C);
-    width: 95%;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
+  width: 95%;
 }
 
 nav button {
-    background-color: transparent;
-    position: absolute;
-    left: 5%;
-    top: 15%;
-    border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  border: none;
 }
 
 button i {
-    color: white;
+  color: white;
+}
+.header-img{
+    width: 60vw;
+    height: 20vh;
+    
 }
 
-body {
-    background-image: url(../assets/images/expedition_hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-div{
+    width: 70%;
+    margin: 2% auto;
+}
+/* body {
+  background-color: yellow;
+} */
+.iphone{
+    /* display: grid; */
+  
+    /* grid-template-columns: repeat(4,1fr); */
+ 
+
+}
+main{
+    background-color: lightgreen;
+    
+    margin:auto;
+    margin-top: 5px;
+}
+
+/* footer */
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    align-items: center;
+   
+}
+.top-footer a{
+    text-decoration: none;
+    padding: 0 3px;
+    border-right: thin solid lightgray;
 }
