@@ -4,17 +4,20 @@
   box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*This is the header styles*/
 header {
   background-image: url(../assets/images/expedition_hero.jpg);
   background-repeat: no-repeat;
   background-size:  cover;
   height: 80vh;
-  /* position: absolute;
-  top:0; */
-
-  /* margin: 5%; */
+  padding-top: 50px;
 }
 
+/*This is the nav styles*/
 nav {
   margin: 5% auto 0;
   display: flex;
@@ -27,7 +30,6 @@ nav {
 }
 
 nav a {
-  text-decoration: none;
   padding: 10px 40px;
   color: white;
   border-right: 1px solid black;
@@ -71,24 +73,26 @@ button i {
     width: 70%;
     margin: 2% auto;
 }
-/* body {
-  background-color: yellow;
-} */
-.iphone{
-    /* display: grid; */
-  
-    /* grid-template-columns: repeat(4,1fr); */
- 
 
-}
+
+/*This is the main section styles*/
 main{
-    background-color: lightgreen;
-    
-    margin:auto;
-    margin-top: 5px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* footer */
+main img {
+    height: 100%;
+    width: 100%;
+}
+
+main a {
+    width: 24.8%;   
+}
+
+/* This is the footer styles */
 .top-footer{
     display: flex;
     justify-content: space-between;
@@ -97,8 +101,25 @@ main{
     align-items: center;
    
 }
-.top-footer a{
-    text-decoration: none;
+.right a{
     padding: 0 3px;
     border-right: thin solid lightgray;
+}
+
+.bottom-footer {
+    width: 90%;
+    margin: 10px auto 20px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+.bottom-a {
+    border-right: thin solid lightgray;
+    padding-right: 3px;
+}
+
+#right-last {
+    border: none;
 }
