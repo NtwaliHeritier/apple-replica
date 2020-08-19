@@ -5,9 +5,59 @@
 }
 
 header {
-    background-image: url('../assets/images/expedition_hero.jpg');
-    height: 80vh;
-    width: 100%;
+    z-index: 1;
+    margin: 5%;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #7C7C7C, #606060, #7C7C7C);
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    border-right: 1px solid black;
+    justify-self: center;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom,#5E5E5E, #393939 55%, #5E5E5E);
+}
+
+form {
+    position: relative;
+    width: 99%;
+    margin-left: 0.5%;
+}
+
+nav input {
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #7C7C7C, #606060, #7C7C7C);
+    width: 95%;
+}
+
+nav button {
+    background-color: transparent;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    border: none;
+}
+
+button i {
+    color: white;
+}
+
+body {
+    background-image: url(../assets/images/expedition_hero.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
