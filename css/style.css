@@ -28,7 +28,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
-  width: 70%;
+  width: 80%;
   border: 1px solid black;
   border-radius: 7px;
 }
@@ -70,7 +70,7 @@ nav input {
   width: 98%;
 }
 
-nav i {
+form i {
   background-color: transparent;
   position: absolute;
   left: 5%;
