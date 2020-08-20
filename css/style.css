@@ -62,18 +62,14 @@ form {
 nav input {
   border-radius: 20px;
   background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
-  width: 95%;
+  width: 98%;
 }
 
-nav button {
+nav i {
   background-color: transparent;
   position: absolute;
   left: 5%;
-  top: 15%;
-  border: none;
-}
-
-button i {
+  top: 15%; 
   color: white;
 }
 
