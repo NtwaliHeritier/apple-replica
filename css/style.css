@@ -28,7 +28,7 @@ nav {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
-  width: 80%;
+  width: 70%;
   border: 1px solid black;
   border-radius: 7px;
 }
@@ -74,7 +74,7 @@ form i {
   background-color: transparent;
   position: absolute;
   left: 5%;
-  top: 15%; 
+  top: 15%;
   color: white;
 }
 
@@ -118,7 +118,7 @@ main img {
 
 .bottom-footer {
   width: 90%;
-  margin: 0px auto 20px;
+  margin: 0 auto 20px;
   padding-top: 10px;
   clear: both;
 }
