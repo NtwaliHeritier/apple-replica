@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ntwaliheritier.github.io/apple-replica/.)
+[Live Demo Link](https://apple-replica1.netlify.app/)
 
 ## Getting Started
 

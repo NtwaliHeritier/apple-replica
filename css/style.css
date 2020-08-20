@@ -102,15 +102,25 @@ main img {
 
 /* This is the footer styles */
 .top-footer {
-  justify-content: space-between;
   width: 90%;
-  margin: 20px auto;
-  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.left {
+  margin-top: 10px;
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-top: 10px;
 }
 
 .bottom-footer {
   width: 90%;
-  margin: 10px auto 20px;
+  margin: 0px auto 20px;
+  padding-top: 10px;
+  clear: both;
 }
 
 .bottom-a {
@@ -118,6 +128,6 @@ main img {
   padding-right: 3px;
 }
 
-#right-last {
-  border: none;
+.right-last {
+  border: none !important;
 }
