@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General class */
+.flex {
+  display: flex;
+}
+
+/* This is the header styles */
+header {
+  background-image: url(../assets/images/expedition_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  padding-top: 40px;
+}
+
+/* This is the nav styles */
+nav {
+  margin: 5% auto 0;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
+  width: 65%;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+nav a {
+  padding: 10px 30px;
+  color: white;
+  border-right: 1px solid black;
+  justify-self: center;
+}
+
+main a {
+  width: 24.8%;
+}
+
+footer p,
+footer a {
+  font-size: 13px;
+}
+
+.right a {
+  padding: 0 3px;
+  border-right: thin solid lightgray;
+}
+
+nav a:hover {
+  background-image: linear-gradient(to bottom, #5e5e5e, #393939 55%, #5e5e5e);
+}
+
+form {
+  position: relative;
+  width: 99%;
+  margin-left: 0.5%;
+}
+
+nav input {
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #7c7c7c, #606060, #7c7c7c);
+  width: 98%;
+}
+
+form i {
+  background-color: transparent;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  color: white;
+}
+
+.header-img {
+  width: 60vw;
+  height: 20vh;
+}
+
+.header-div {
+  width: 70%;
+  margin: 2% auto;
+}
+
+/* This is the main section styles */
+main {
+  margin: 5px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main img {
+  height: 100%;
+  width: 100%;
+}
+
+.play {
+  position: relative;
+}
+
+.play i {
+  position: absolute;
+  bottom: 10px;
+  left: 90%;
+  color: white;
+}
+
+/* This is the footer styles */
+.top-footer {
+  width: 90%;
+  margin: 0 auto 20px;
+}
+
+.left {
+  margin-top: 10px;
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-top: 10px;
+}
+
+.bottom-footer {
+  width: 90%;
+  margin: 0 auto 20px;
+  padding-top: 10px;
+  clear: both;
+}
+
+.bottom-a {
+  border-right: thin solid lightgray;
+  padding-right: 3px;
+}
+
+.right-last {
+  border: none !important;
+}
