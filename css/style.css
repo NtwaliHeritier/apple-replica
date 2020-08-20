@@ -44,6 +44,11 @@ main a {
   width: 24.8%;
 }
 
+footer p,
+footer a {
+  font-size: 13px;
+}
+
 .right a {
   padding: 0 3px;
   border-right: thin solid lightgray;
@@ -106,11 +111,6 @@ main img {
 .bottom-footer {
   width: 90%;
   margin: 10px auto 20px;
-}
-
-footer p,
-footer a {
-  font-size: 13px;
 }
 
 .bottom-a {
