@@ -100,6 +100,17 @@ main img {
   width: 100%;
 }
 
+.play {
+  position: relative;
+}
+
+.play i {
+  position: absolute;
+  bottom: 10px;
+  left: 90%;
+  color: white;
+}
+
 /* This is the footer styles */
 .top-footer {
   width: 90%;
